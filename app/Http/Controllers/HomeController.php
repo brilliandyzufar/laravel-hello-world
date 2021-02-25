@@ -23,17 +23,17 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('index');
+        return view('layouts.index');
     }
     public function home(){
 		return view('home');
 	}
  
 	public function elements(){
-		return view('elements');
+		return view('layouts.elements');
 	}
  
 	public function contact(){
-		return view('contact');
+		return view('layout.contact');
 	}
 }
